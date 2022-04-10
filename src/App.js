@@ -59,8 +59,8 @@ const App = () => {
               return (
                 <div key={thisTodo.customerId}>
                   <span>
-                    <b>CustomerId:</b> {thisTodo.todoId} - <b>CustomerName</b>:{" "}
-                    {thisTodo.todoName}
+                    <b>CustomerId : </b> {thisTodo.todoId} - <b>CustomerName</b>
+                    : {thisTodo.todoName}
                   </span>
                 </div>
               );
